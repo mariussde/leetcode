@@ -84,26 +84,32 @@
 
 ![Diagram](https://cdn.answeroverflow.com/1167283007946756186/image.png)
 
-### 1. Sliding Window   *O(n)*
+### 1. Sliding Window
 Used for performing operations on a specific window size of a given array or linked list. Examples:
 - Linear data structures (arrays, lists, strings).
 - Find the shortest/longest/min/max of a subarray.
 - Subarray must satisfy some condition.
 
-### 2. Two Pointers or Iterators   *O(n)*
+*time O(n), space O(1)*
+
+### 2. Two Pointers or Iterators
 Efficient for **sorted data** structures to search pairs or compare elements without backtracking. Examples:
 - Linear data structures (arrays, lists, strings)
 - When you need to scan the start and end of a list (indexed palindrome) O(n)
 - When you have a sorted list and need to find pairs
 - Removing duplicates or filtering
 
-### 3. Fast and Slow Pointers   *time O(n), space O(1)*
+*time O(n), space O(1)*
+
+### 3. Fast and Slow Pointers
 Useful for cyclic **linked lists** or arrays only when 2 objects moving different speed. Examples:
 - Detecting Cycles of a Linked List in one pass
 - Finding Middle of a Linked List
 - Palindrome Linked List
 
-### 4. Binary Search  *time O(log n), space O(1)*
+*time O(n), space O(1)*
+
+### 4. Binary Search
 Efficient for finding elements in sorted data structures. Examples:
 - Input is sorted and you need to find a number
 - Finding the position of insertion in a sorted list
@@ -111,17 +117,19 @@ Efficient for finding elements in sorted data structures. Examples:
 - Searching in rotated sorted arrays
 - if not sorted, *time O(n)*
 
-### 5. Binary Tree Traversal   *time O(n), space O(height of tree)*
+*time O(n), space O(1)*
+
+### 5. Binary Tree Traversal
  Examples:
 - Preorder: Serialize or deserialize a tree
 - Inorder: Retrieve elements in sorted order (BSTs)
 - Postorder: Process children before parent (bottom-up)
 - BFS: Level by level scanning
 
-### 6. Graphs and Matrices
-Graphs: *time O(vertices + edges), space O(V)*.
+*time O(n), space O(height of tree)*
 
-Matrices: *time O(rows * columns), space O(rows * columns)*. Examples:
+### 6. Graphs and Matrices
+ Examples:
 - Search graphs or matrices
 - DFS: Explore all possible paths (maze)
 - BFS: Find the shortest path
@@ -129,60 +137,83 @@ Matrices: *time O(rows * columns), space O(rows * columns)*. Examples:
 - Topological Sort (on acycical graph): Order tasks based on dependencies
 - Matrix traversal to find connected components (number of islands, max area of island)
 
+*Graphs: time O(vertices + edges), space O(V)*.
+
+*Matrices: time O(rows * columns), space O(rows * columns)*.
+
 ### 7. Dynamic programming
- *time O(n * m) for 2D DP problems, O(n) for 1D.*
- 
- *space same as time without optimization, O(1) if done.* Examples:
+Use dynamic programming for problems with overlapping subproblems and optimal substructure to optimize efficiency. Examples:
 - Overlapping subproblems and optimal substructure
 - Optimization problems (min/max distance, profit, etc)
 - Sequence problems (longest increasing subsequence)
 - Combinatorial problems (number of ways to do something)
 - Reduce time complexity from exponential to polynomial
 
-### 8. Overlapping Intervals   *time O(n), space O(n)*
-Deals with overlapping intervals. Examples:
+ *time O(n * m) for 2D DP problems, O(n) for 1D.*
+ 
+ *space same as time without optimization, O(1) if done.* 
+
+### 8. Overlapping Intervals
+
+Use overlapping intervals in range-based problems. Examples:
 - Merge or consolidate ranges
 - Insert Interval
 - Interval Intersection
 - Schedule or find conflicts
 - Find gaps or missing intervals
 
-### 9. Cyclic Sort   *time O(n), space O(1)*
+*time O(n), space O(n)*
+
+### 9. Cyclic Sort
 Efficient for problems involving arrays containing numbers within a given range. Examples:
 - Find Missing Number
 - Find All Duplicates
 
-### 10. In-Place Reversal of a Linked List  *time O(n), space O(1)*
+*time O(n), space O(1)*
+
+### 10. In-Place Reversal of a Linked List
 Reverse links between nodes without extra memory. Examples:
 - Reverse a Linked List or portion of it
 - Reverse Every K-element Sub-list
 
-### 11. Two Heaps   *time O(log k), space O(k)*
+*time O(n), space O(1)*
+
+### 11. Two Heaps
 Divide elements into two parts using heaps. Examples:
 - Median of a Stream
 - Sliding Window Median
 
-### 12. Top K Elements time   *O(k * log k), space O(k)*
+*time O(log k), space O(k)*
+
+### 12. Top K Elements time
 Using Min Heap (K=3) is better than sorting. Example:
 - Find the top K smallest or largest elements
 - Find the Kth smallest or largest element
 - Find the K most frequent elements
 
-### 13. Backtracking   *time O(n), space O(n)*
+*time O(k * log k), space O(k)*
+
+### 13. Backtracking
 Explore all possible solutions and backtrack when necessary. Examples:
 - Combinatorial problems (combinations, permutations, subsets)
 - Constraint satisfaction(Sudoku, N-Queens)
 - Prune branches using constrains to reduce search space, if not time can be O(2^n)
 
-### 14. Monotonic Stack   *time O(n), space O(n)*
- Examples:
+*time O(n), space O(n)*
+
+### 14. Monotonic Stack
+Use a monotonic stack to efficiently find a subset of elements in sequences. Examples:
 - Find next greater/smaller element
 - Find left/right boundary points in histograms or rectangles
 - Maintain elements in order to optimize operations
 - Largest Rectangle in Histogram
 
-### 15. Prefix Sum   *time O(n), space O(n)*
+*time O(n), space O(n)*
+
+### 15. Prefix Sum
 Efficient for cumulative sum calculations. Examples:
 - Cumulative sums are needed from index 0 to any element
 - Querying subarray sums frequently across multiple ranges
 - Partial sums can be reused efficiently
+
+*time O(n), space O(n)*
