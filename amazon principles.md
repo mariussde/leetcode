@@ -32,7 +32,7 @@
 * **Action:** You documented them, fixed the ones you could, and flagged the others to the team even though it wasn’t strictly your responsibility.
 * **Result:** Clients experienced fewer bugs and support tickets dropped.
 
----
+
 
 ## 2. **Ownership**
 
@@ -50,7 +50,7 @@
 * **Action:** You stayed late, investigated the root cause, and deployed a hotfix. Then, you added better logging and wrote a post-mortem to prevent future issues.
 * **Result:** The client barely noticed the downtime, and you gained your manager's trust for taking initiative.
 
----
+
 
 ## 3. **Invent and Simplify**
 
@@ -69,7 +69,6 @@
 * **Result:** Deployment became more reliable and 2x faster.
 
 
----
 
 ## 4. **Dive Deep**
 
@@ -87,7 +86,7 @@
 * **Action:** You dug into logs, test cases, and backend calls, and eventually traced the issue to a rare race condition during login.
 * **Result:** Fixing it increased app reliability and you were recognized for your attention to detail.
 
----
+
 
 ## 5. **Are Right, A Lot**
 
@@ -105,7 +104,7 @@
 * **Action:** You suggested basic metrics logging and uptime alerts based on experience with past issues.
 * **Result:** When an issue came up later, you identified it immediately thanks to logs — earning trust from the client.
 
----
+
 
 ## 6. **Insist on the Highest Standards**
 
@@ -123,7 +122,7 @@
 * **Action:** You wrote unit tests for critical logic and added regression tests for edge cases that had broken before.
 * **Result:** Stability improved, and QA started spending less time on manual testing.
 
----
+
 
 ## 7. **Think Big**
 
@@ -141,7 +140,6 @@
 * **Action:** You documented everything (architecture, setup, patterns) and created a shared FAQ.
 * **Result:** New team members became productive faster, and the docs are still in use.
 
----
 
 
 ## 8. **Bias for Action**
@@ -160,7 +158,7 @@
 * **Action:** You proposed and implemented a lightweight emergency path for verified hotfixes and documented it.
 * **Result:** Bug was fixed in hours instead of days, and the team adopted the new hotfix flow for future cases.
 
----
+
 
 ## 9. **Frugality**
 
@@ -178,7 +176,7 @@
 * **Action:** You suggested reusing and slightly modifying existing shared components in React instead of writing new ones.
 * **Result:** Saved dev time and reduced maintenance overhead.
 
----
+
 
 ## 10. **Earn Trust**
 
@@ -196,7 +194,7 @@
 * **Action:** You scheduled pair-programming sessions, explained the logic patiently, and encouraged them to take ownership.
 * **Result:** They gained confidence, finished their task, and later thanked you for helping them grow.
 
----
+
 
 ## 11. **Deliver Results**
 
@@ -214,7 +212,7 @@
 * **Action:** You implemented smart caching, code-splitting in React, and lazy loading for assets.
 * **Result:** The app ended up 45% faster, exceeding expectations.
 
----
+
 
 ## 12. **Have Backbone; Disagree and Commit**
 
